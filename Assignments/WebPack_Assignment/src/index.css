@@ -1,0 +1,55 @@
+#container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+#main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+}
+#input {
+    height: 200px;
+    padding: 10px;
+    font-size: large;
+}
+#table {
+    width: 55%;
+}
+table {
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+#todo {
+    width: 70%;
+}
+
+.align {
+    width: 100%;
+    height: 100%;
+    margin:  auto;
+}
+
+#logo {
+    width: 80%;
+    margin: auto;
+}
+img {
+    width: 30%;
+    margin: 0 35%;
+}
