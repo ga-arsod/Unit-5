@@ -6,7 +6,7 @@ module.exports = {
         path: path.resolve(".", "build"), //folder generation
         filename: "bundle.js", // filename
     },
-    mode: "development",
+    mode: "production",
     module: {
         rules: [{ test: /\.css$/, use: ["style-loader", "css-loader"]},
         {
