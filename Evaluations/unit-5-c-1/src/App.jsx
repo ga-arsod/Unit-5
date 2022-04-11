@@ -20,7 +20,7 @@ function App() {
 
   function Win() {
      if(res) {
-       return <h1>India Won</h1>
+       return <h1 className="status">India Won</h1>
      }
 
   }
