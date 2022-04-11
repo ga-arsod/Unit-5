@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: large;
+}
+.App {
+    text-align: center;
+    width: 20%;
+    height: 450px;
+    margin: 30px auto;
+    background-color: black;
+    border-radius: 10px;
+    overflow-y: auto;
+}
+.todoInput {
+    display: flex;
+    gap: 10px;
+    padding: 10px 10px;
+    position: fixed;
+    width: 18.5%;
+    bottom: 70px;
+    border-radius: 10px;
+    background-color: #4d4f44;
+}
+.todoInput > input {
+    width: 70%;
+    border-radius: 10px;
+    border: none;
+    padding: 15px 10px;
+}
+.todoInput > button {
+    width: 20%;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    font-size: x-large;
+}
+.todoInput>input:focus {
+    outline: none;
+}
+.todos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+.notdone {
+    accent-color: purple;
+    width: 20px;
+    height: 20px;
+}
+.done {
+    accent-color: green;
+    width: 20px;
+    height: 20px;
+}
