@@ -40,12 +40,9 @@ function App() {
 
     if(item == "ball") {
       
-      // if(count.Ball == Math.floor(count.ball) + 0.5) {
-      //   count.Ball = Math.ceil(count.ball)
-      // }
 
       setCount(changeState => {
-      return{...changeState, Ball: (value + count.Ball).toFixed(1)}
+      return{...changeState, Ball: value + count.Ball}
     })
     }
   }
