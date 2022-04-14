@@ -11,7 +11,7 @@ export const Counter = ({initialTime, endTime}) => {
                       clearInterval(timer);
                       return endTime;
                   }
-                  return prev - 1;
+                  return prev + 1;
               })
           }, 1000);
 
@@ -22,7 +22,7 @@ export const Counter = ({initialTime, endTime}) => {
 
     return (
         <div>
-            <p>// Initial time : 20 , End time : 15 //</p>
+            <p>// Initial time : 10 , End time : 20 //</p>
             <h3>Counter: {count}</h3>
         </div>
     )

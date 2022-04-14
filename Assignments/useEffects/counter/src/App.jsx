@@ -3,8 +3,8 @@ import { Counter } from './component/Counter'
 
 function App() {
 
-  let initialTime = 20;
-  let endTime = 15;
+  let initialTime = 10;
+  let endTime = 20;
 
   return (
     <div className="App">
