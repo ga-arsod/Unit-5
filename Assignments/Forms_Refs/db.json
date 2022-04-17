@@ -9,26 +9,6 @@
       "single": "on",
       "married": "on",
       "id": 1
-    },
-    {
-      "name": "Gaurav",
-      "age": "22",
-      "address": "chani",
-      "department": "Human Resource",
-      "salary": "00",
-      "single": "on",
-      "married": "on",
-      "id": 2
-    },
-    {
-      "name": "aroddd",
-      "age": "22",
-      "address": "chani",
-      "department": "Human Resource",
-      "salary": "00",
-      "single": "on",
-      "married": "on",
-      "id": 3
     }
   ]
 }
