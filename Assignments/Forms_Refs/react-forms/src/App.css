@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  margin: 40px auto;
+  gap: 20px;
+}
+input,select {
+  width: 50%;
+  height: 30px;
+}
+.marital {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content:center;
+}
+input[type="checkbox"] {
+  height: 20px;
+}

@@ -1,8 +1,74 @@
-.App {
-    text-align: center;
+* {
+    margin: 0;
+    padding: 0%;
 }
-.TodoLeft {
+.App {
+    width: 25%;
+    margin: auto;
+    padding: 10px;
+    /* background-color: gray; */
+    background-image: url('C:\Users\gaars\Documents\GitHub\Unit-5\Assignments\State_management\react-todos\Images\images.jpg');
+    background-attachment: fixed;
+    background-position-x: center;
+    height: 500px;
+    overflow-y: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.TodoLeft, .CompletedTodo {
     display: flex;
-    border: 1px solid red;
+    gap: 10px;
+    padding: 15px 10px;
+    border-radius: 5px;
     align-items: center;
+    width: 100%;
+    font-size: large;
+    font-weight: 500;
+    overflow-x: auto;
+    background-color: white;
+}
+.TodoLeft:hover, .CompletedTodo:hover {
+    background-color: rgb(237, 244, 248);
+}
+.CompletedTodo {
+    opacity: 70%;
+}
+#keyBox {
+    width: 90%;
+    padding: 15px;
+    font-size: larger;
+    background-color: #809275;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+#keyBox::placeholder {
+    color: white;
+    opacity: 60%;
+}
+#keyBox:focus {
+    outline: none;
+}
+.TodoList {
+    margin: 5px auto;
+    width: 100%;
+}
+.container {
+    width: 93%;
+    margin: 20px 0 30px 0;
+}
+.completed {
+    text-decoration: line-through;
+}
+input.check {
+  height: 20px;  
+  width: 20px;
+}
+.showBtn {
+    padding: 10px;
+    background-color: #809275;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: medium;
 }

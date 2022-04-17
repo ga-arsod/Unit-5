@@ -9,9 +9,6 @@ export const ToDos = () => {
         getData();
     }, []);
 
-    const hello = () => {
-        console.log('Helloo')
-    }
 
     const getData = async () => {
         const res = await fetch("http://localhost:5000/todos")
@@ -23,9 +20,11 @@ export const ToDos = () => {
     return (
         <div>
             <TodoInput getData = {getData} />
-            {todo.map(elem => (
-                <TodoItem todo={elem} />
+            <div className="container">
+                {todo.map((elem, index) => (
+                <TodoItem todo={elem} index={index} todos={todo} setTodo={setTodo}/>
             ))}
+            </div>
         </div>
     )
 }
