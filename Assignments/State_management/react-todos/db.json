@@ -1,60 +1,45 @@
 {
   "todos": [
     {
-      "id": "_OQxX",
-      "title": "dfsdfdsffsddfsdfsdf",
+      "id": "J66Er",
+      "title": "Attend DSA PSC",
       "status": false
     },
     {
-      "id": "4wrvW",
-      "title": "ffsdfsf",
+      "id": "cwY5u",
+      "title": "Attend Skillathon",
       "status": false
     },
     {
-      "id": "GN9-w",
-      "title": "ffsdfsf",
+      "id": "wnDco",
+      "title": "Attend Coding Class",
+      "status": false
+    },
+    {
+      "id": "8l0_q",
+      "title": "Complete Assignments",
+      "status": false
+    },
+    {
+      "id": "eOUDm",
+      "title": "Join standup",
       "status": false
     }
   ],
   "completed": [
     {
-      "id": "-xfIf",
-      "title": "hell",
+      "id": "TazQg",
+      "title": "Eat Breakfast",
       "status": true
     },
     {
-      "id": "IdnJn",
-      "title": "enjoy",
+      "id": "l5n5G",
+      "title": "Attend Scrum",
       "status": true
     },
     {
-      "id": "Da0CA",
-      "title": "gsdfsdfdfdfdf",
-      "status": true
-    },
-    {
-      "id": "BVFSc",
-      "title": "sdfjsdklfj",
-      "status": true
-    },
-    {
-      "id": "CS6E3",
-      "title": "hello ji",
-      "status": true
-    },
-    {
-      "id": "UPuYY",
-      "title": "how are you",
-      "status": true
-    },
-    {
-      "id": "OfMys",
-      "title": "hope you are fine",
-      "status": true
-    },
-    {
-      "id": "_5Wao",
-      "title": "dfsdfdsf",
+      "id": "PMtHC",
+      "title": "Solve DSA contest",
       "status": true
     }
   ]
