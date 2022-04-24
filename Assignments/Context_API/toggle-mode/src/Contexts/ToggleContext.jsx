@@ -7,9 +7,10 @@ export const ToggleContextProvider = ({children}) => {
 
     const handleChange = () => {
         setToggle(!toggle)
+        console.log(toggle);
     }
 
     return (
-        <ToggleContext.Provider value={{toggle, handleToggle}}>{children}</ToggleContext.Provider>
+        <ToggleContext.Provider value={{toggle, handleChange}}>{children}</ToggleContext.Provider>
     )
 }
