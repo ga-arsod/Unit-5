@@ -51,3 +51,61 @@ a {
 .container > img {
   width: 100%
 }
+
+#productGrid {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  gap: 40px 60px;
+}
+.product {
+  cursor: pointer;
+  border: 1px solid gray;
+}
+
+.product > a > img {
+  width: 100%;
+}
+.product>a>h3, .product>a>div > h4 {
+  color: black;
+}
+.product > a > div {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.product> a > div>h4:nth-child(2) {
+  text-decoration: line-through;
+  color: grey;
+}
+.productDetail {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.productDetail > img {
+  width: 50%;
+}
+
+.productDetail > div {
+  display: flex;
+  gap: 200px;
+}
+
+.productDetail>div>h3:nth-child(2) {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.productDetail > button {
+  width: 200px;
+  background-color: aquamarine;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+  height: 50px;
+}

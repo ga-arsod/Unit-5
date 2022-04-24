@@ -1,0 +1,76 @@
+{
+    "products" : [
+        {
+            "id": "1",
+            "title": "Apple iPhone 13 (128 GB Storage, Green)",
+            "price": "₹71,900",
+            "offerPrice": "₹74,900",
+            "image": "https://d2xamzlzrdbdbn.cloudfront.net/products/dd6cabec-a0f9-4b30-89fc-9a2ee48301f622111157.jpg",
+            "desc": "15 cm (6.1-inch) Super Retina XDR display with ProMotion for a faster, more responsive feel. Cinematic mode adds shallow depth of field and shifts focus automatically in your videos. Pro camera system with new 12MP Telephoto, Wide and Ultra Wide cameras; LiDAR Scanner; 6x optical zoom range; macro photography; Photographic Styles, ProRes video, Smart HDR 4, Night mode, Apple ProRAW, 4K Dolby Vision HDR recording. 12MP TrueDepth front camera with Night mode, 4K Dolby Vision HDR recording. A15 Bionic chip for lightning-fast performance.Up to 22 hours of video playback.Durable design with Ceramic Shield"
+        },
+        {
+            "id": "2",
+            "title": "Apple iPhone 13 Pro (128 GB Storage, Sierra Blue)",
+            "price": "₹1,16,300",
+            "offerPrice": "₹1,19,900",
+            "image": "https://d2xamzlzrdbdbn.cloudfront.net/products/a6cd4796-dd47-41ad-99ec-7849621ce45e21170616.jpg",
+            "desc": "15 cm (6.1-inch) Super Retina XDR display with ProMotion for a faster, more responsive feel. Cinematic mode adds shallow depth of field and shifts focus automatically in your videos. Pro camera system with new 12MP Telephoto, Wide and Ultra Wide cameras; LiDAR Scanner; 6x optical zoom range; macro photography; Photographic Styles, ProRes video, Smart HDR 4, Night mode, Apple ProRAW, 4K Dolby Vision HDR recording. 12MP TrueDepth front camera with Night mode, 4K Dolby Vision HDR recording. A15 Bionic chip for lightning-fast performance.Up to 22 hours of video playback.Durable design with Ceramic Shield"
+        },
+        {
+            "id": "3",
+            "title": "Apple iPhone 13 (256 GB Storage, Midnight)",
+            "price": "₹81,500",
+            "offerPrice": "₹89,900",
+            "image": "https://d2xamzlzrdbdbn.cloudfront.net/products/d48be88c-dc7e-403f-841c-987a0866979f21170600_416x416.jpg",
+            "desc": "15 cm (6.1-inch) Super Retina XDR display with ProMotion for a faster, more responsive feel. Cinematic mode adds shallow depth of field and shifts focus automatically in your videos. Pro camera system with new 12MP Telephoto, Wide and Ultra Wide cameras; LiDAR Scanner; 6x optical zoom range; macro photography; Photographic Styles, ProRes video, Smart HDR 4, Night mode, Apple ProRAW, 4K Dolby Vision HDR recording. 12MP TrueDepth front camera with Night mode, 4K Dolby Vision HDR recording. A15 Bionic chip for lightning-fast performance.Up to 22 hours of video playback.Durable design with Ceramic Shield"
+        },
+        {
+            "id": "4",
+            "title": "Apple iPhone 13 (512 GB Storage, Starlight)",
+            "price": "₹1,01,800",
+            "offerPrice": "₹1,09,900",
+            "image": "https://d2xamzlzrdbdbn.cloudfront.net/products/54135db2-883c-4dd1-8234-db04735394d821170610_416x416.jpg",
+            "desc": "15 cm (6.1-inch) Super Retina XDR display with ProMotion for a faster, more responsive feel. Cinematic mode adds shallow depth of field and shifts focus automatically in your videos. Pro camera system with new 12MP Telephoto, Wide and Ultra Wide cameras; LiDAR Scanner; 6x optical zoom range; macro photography; Photographic Styles, ProRes video, Smart HDR 4, Night mode, Apple ProRAW, 4K Dolby Vision HDR recording. 12MP TrueDepth front camera with Night mode, 4K Dolby Vision HDR recording. A15 Bionic chip for lightning-fast performance.Up to 22 hours of video playback.Durable design with Ceramic Shield"
+        },
+        {
+            "id": "5",
+            "title": "Apple iPhone 11 (64 GB Storage, White)",
+            "price": "₹47,690",
+            "offerPrice": "₹49,900",
+            "image": "https://d2xamzlzrdbdbn.cloudfront.net/products/f94bc463-12d4-4489-aef4-a345105f87dd_416x416.jpg",
+            "desc": "15 cm (6.1-inch) Super Retina XDR display with ProMotion for a faster, more responsive feel. Cinematic mode adds shallow depth of field and shifts focus automatically in your videos. Pro camera system with new 12MP Telephoto, Wide and Ultra Wide cameras; LiDAR Scanner; 6x optical zoom range; macro photography; Photographic Styles, ProRes video, Smart HDR 4, Night mode, Apple ProRAW, 4K Dolby Vision HDR recording. 12MP TrueDepth front camera with Night mode, 4K Dolby Vision HDR recording. A15 Bionic chip for lightning-fast performance.Up to 22 hours of video playback.Durable design with Ceramic Shield"
+        },
+        {
+            "id": "6",
+            "title": "Apple iPhone 12 (64 GB Storage, Black)",
+            "price": "₹57,900",
+            "offerPrice": "₹65,900",
+            "image": "https://d2xamzlzrdbdbn.cloudfront.net/products/f63ea45d-744b-4d05-9d48-eee9143ebf48_416x416.jpg",
+            "desc": "15 cm (6.1-inch) Super Retina XDR display with ProMotion for a faster, more responsive feel. Cinematic mode adds shallow depth of field and shifts focus automatically in your videos. Pro camera system with new 12MP Telephoto, Wide and Ultra Wide cameras; LiDAR Scanner; 6x optical zoom range; macro photography; Photographic Styles, ProRes video, Smart HDR 4, Night mode, Apple ProRAW, 4K Dolby Vision HDR recording. 12MP TrueDepth front camera with Night mode, 4K Dolby Vision HDR recording. A15 Bionic chip for lightning-fast performance.Up to 22 hours of video playback.Durable design with Ceramic Shield"
+        },
+        {
+            "id": "7",
+            "title": "Apple iPad (9th Generation) MK2K3HN/A 64 GB Wi-Fi - Space Grey",
+            "price": "₹29,900",
+            "offerPrice": "₹30,900",
+            "image": "https://d2xamzlzrdbdbn.cloudfront.net/products/6366b37d-809a-4e14-9b21-31d65c690a4921161307_416x416.jpg",
+            "desc": "15 cm (6.1-inch) Super Retina XDR display with ProMotion for a faster, more responsive feel. Cinematic mode adds shallow depth of field and shifts focus automatically in your videos. Pro camera system with new 12MP Telephoto, Wide and Ultra Wide cameras; LiDAR Scanner; 6x optical zoom range; macro photography; Photographic Styles, ProRes video, Smart HDR 4, Night mode, Apple ProRAW, 4K Dolby Vision HDR recording. 12MP TrueDepth front camera with Night mode, 4K Dolby Vision HDR recording. A15 Bionic chip for lightning-fast performance.Up to 22 hours of video playback.Durable design with Ceramic Shield"
+        },
+        {
+            "id": "8",
+            "title": "Apple iPad (9th Generation) MK2K3HN/A 64 GB Wi-Fi - Space Grey",
+            "price": "₹43,900",
+            "offerPrice": "₹44,900",
+            "image": "https://d2xamzlzrdbdbn.cloudfront.net/products/ff429438-3168-4db0-b852-e7a3f1bf8d0821161308_416x416.jpg",
+            "desc": "15 cm (6.1-inch) Super Retina XDR display with ProMotion for a faster, more responsive feel. Cinematic mode adds shallow depth of field and shifts focus automatically in your videos. Pro camera system with new 12MP Telephoto, Wide and Ultra Wide cameras; LiDAR Scanner; 6x optical zoom range; macro photography; Photographic Styles, ProRes video, Smart HDR 4, Night mode, Apple ProRAW, 4K Dolby Vision HDR recording. 12MP TrueDepth front camera with Night mode, 4K Dolby Vision HDR recording. A15 Bionic chip for lightning-fast performance.Up to 22 hours of video playback.Durable design with Ceramic Shield"
+        },
+        {
+            "id": "9",
+            "title": "Apple iPad (9th Generation) MK2K3HN/A 64 GB Wi-Fi - Space Grey",
+            "price": "₹46,800",
+            "offerPrice": "₹54,900",
+            "image": "https://d2xamzlzrdbdbn.cloudfront.net/products/e548198e-092f-4ae8-bc67-cc4cd219fd86_416x416.jpg",
+            "desc": "15 cm (6.1-inch) Super Retina XDR display with ProMotion for a faster, more responsive feel. Cinematic mode adds shallow depth of field and shifts focus automatically in your videos. Pro camera system with new 12MP Telephoto, Wide and Ultra Wide cameras; LiDAR Scanner; 6x optical zoom range; macro photography; Photographic Styles, ProRes video, Smart HDR 4, Night mode, Apple ProRAW, 4K Dolby Vision HDR recording. 12MP TrueDepth front camera with Night mode, 4K Dolby Vision HDR recording. A15 Bionic chip for lightning-fast performance.Up to 22 hours of video playback.Durable design with Ceramic Shield"
+        }
+    ]
+}

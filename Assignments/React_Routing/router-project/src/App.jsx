@@ -6,6 +6,8 @@ import { FAQ } from '../Components/FAQ'
 import { Footer } from '../Components/Footer'
 import { Home } from '../Components/Home'
 import { Navbar } from '../Components/Navbar'
+import { ProductDetails } from '../Components/ProductDetails'
+import { Store } from '../Components/Store'
 import './App.css'
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
         <Route path='/about' element={<About/>}></Route>
         <Route path='/faq' element={<FAQ/>}></Route>
         <Route path='/support' element={<Contact/>}></Route>
+        <Route path='/store' element={<Store />}></Route>
+        <Route path='/store/:id' element={<ProductDetails/>}></Route>
       </Routes>
       <Footer/>
     </div>
