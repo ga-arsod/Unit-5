@@ -7,12 +7,12 @@ import {faBagShopping, faSearch, faAppleWhole} from "@fortawesome/free-solid-svg
 export const Navbar = () => {
     const nav = [
         {title: "Store", to: "/store"},
-        {title: "Mac", to: ""},
-        {title: "iPad", to: ""},
-        {title: "iPhone", to: ""},
-        {title: "Watch", to: ""},
-        {title: "AirPds", to: ""},
-        {title: "TV & Home", to: ""},
+        {title: "Mac", to: "/store"},
+        {title: "iPad", to: "/store"},
+        {title: "iPhone", to: "/store"},
+        {title: "Watch", to: "/store"},
+        {title: "AirPds", to: "/store"},
+        {title: "TV & Home", to: "/store"},
         {title: "About Us", to: "/about"},
         {title: "FAQ", to: "/faq"},
         {title: "Support", to: "/support"},
