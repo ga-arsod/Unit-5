@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin: 40px;
+  font-size: larger;
+}
+
+.list_container {
+  display: grid;
+  grid-template-columns:  repeat(4, 200px);
+  gap: 50px
+}
+
+.createEmployee {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.createEmployee > input, .createEmployee>select {
+  height: 30px;
+  width: 500px;
+}
