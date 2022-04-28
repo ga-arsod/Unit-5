@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import {useDispatch, useSelector} from "react-redux";
 import {nanoid} from "nanoid"
-import { addTodo } from "../Redux/action";
+import { addTodo } from "../Redux/Todos/action";
 import { Link } from "react-router-dom";
 
 export const Todo = () => {

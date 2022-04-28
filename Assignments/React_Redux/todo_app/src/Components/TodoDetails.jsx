@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux"
 import { useNavigate, useParams } from "react-router-dom";
-import { deleteTodo } from "../Redux/action";
+import { deleteTodo } from "../Redux/Todos/action";
 
 export const TodoDetails = () => {
     const todo = useSelector((store) => store.todos);

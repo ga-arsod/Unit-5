@@ -1,5 +1,5 @@
 import {legacy_createStore} from "redux"
-import { todoReducer } from "./reducer"
+import { todoReducer } from "./Todos/reducer"
 
 const initState = {
     todos: []
