@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux"
 import { useNavigate, useParams } from "react-router-dom";
 import { deleteTodo } from "../Redux/action";
@@ -7,22 +7,28 @@ export const TodoDetails = () => {
     const todo = useSelector((store) => store.todos);
     const dispatch = useDispatch();
     const navigate = useNavigate();
+    const id = useParams().id;
+    const [details, setDetails] = useState({});
 
-    let data;
+    useEffect(() => {
+        getData();
+    },[]);
 
-    todo.map((e) => {
-        if(e.id === useParams().id) {
-            data = e;
-        }
-    });
+    const getData = () => {
+        fetch(`http://localhost:5000/todos/${id}`)
+        .then((res) => res.json())
+        .then(data => {
+            setDetails(data)
+            // console.log(data)
+        })
+    }
 
-    const [detail, setDetail] = useState(data);
 
     const handleChange = () => {
         
-        setDetail({
-            ...detail,
-            status: !detail.status
+        setDetails({
+            ...details,
+            status: !details.status
         })
     }
 
@@ -31,7 +37,11 @@ export const TodoDetails = () => {
     const handleRemove = () => {
         // const newList = todo.filter((ele) => ele.id !== detail.id)
 
-        dispatch(deleteTodo(detail.id));
+        fetch(`http://localhost:5000/todos/${id}`, {
+            method: "DELETE"
+        });
+
+        dispatch(deleteTodo(details.id));
         navigate("/")
     }
 
@@ -39,9 +49,9 @@ export const TodoDetails = () => {
 
     return (
         <div>
-            <h3>{detail.title}</h3>
-            <p>Status : {detail.status ? "Completed": "Not Completed"}</p>
-            <button onClick={handleChange}>{detail.status ? "Not Completed" : "Completed"}</button>
+            <h3>{details.title}</h3>
+            <p>Status : {details.status ? "Completed": "Not Completed"}</p>
+            <button onClick={handleChange}>{details.status ? "Not Completed" : "Completed"}</button>
 
             <button onClick={handleRemove}>Delete</button>
         </div>

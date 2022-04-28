@@ -6,7 +6,3 @@ const initState = {
 };
 
 export const store = legacy_createStore(todoReducer, initState);
-
-store.subscribe(() => {
-    console.log(store.getState());
-})
