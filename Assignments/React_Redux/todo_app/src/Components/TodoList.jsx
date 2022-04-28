@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 export const Todo = () => {
     const dispatch = useDispatch();
     const todo = useSelector((store) => store.todos);
-    console.log(todo)
+    // console.log(todo)
 
     const [text, setText] = useState("");
 

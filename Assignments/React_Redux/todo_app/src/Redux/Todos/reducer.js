@@ -1,6 +1,10 @@
 import { ADD_TODO, DELETE_TODO } from "./action";
 
-export const todoReducer = (state, {type, payload}) => {
+const initState = {
+    todos: []
+};
+
+export const todoReducer = (state = initState, {type, payload}) => {
     switch(type) {
         case ADD_TODO:
             return {...state, todos: payload};

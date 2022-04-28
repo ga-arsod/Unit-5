@@ -45,7 +45,7 @@ export const TodoDetails = () => {
         navigate("/")
     }
 
-    console.log(todo);
+    // console.log(todo);
 
     return (
         <div>
